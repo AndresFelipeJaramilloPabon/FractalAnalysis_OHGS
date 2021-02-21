@@ -1,0 +1,203 @@
+[TITLE]
+
+[JUNCTIONS]
+;ID	Elev	Demand	Pattern
+1	75	23.148	 	;
+10	76	34.722	 	;
+11	68	11.574	 	;
+12	69	23.148	 	;
+13	71	34.722	 	;
+14	73	34.722	 	;
+15	63	23.148	 	;
+16	64	11.574	 	;
+17	67	23.148	 	;
+18	69	23.148	 	;
+19	71	34.722	 	;
+2	75	23.148	 	;
+3	75.5	23.148	 	;
+4	76	23.148	 	;
+5	76	23.148	 	;
+6	71	11.574	 	;
+7	72	23.148	 	;
+8	74	23.148	 	;
+9	75	34.722	 	;
+
+[RESERVOIRS]
+;ID	Head	Pattern
+20	113.98	 	;
+
+[TANKS]
+;ID	Elevation	InitLevel	MinLevel	MaxLevel	Diameter	MinVol	VolCurve
+
+[PIPES]
+;ID	Node1	Node2	Length	Diameter	Roughness	MinorLoss	Status
+1	1	2	150	450	0.0015	0	Open	;
+10	6	7	150.003333	300	0.0015	0	Open	;
+11	7	8	150.013333	150	0.0015	0	Open	;
+12	8	9	150.003333	700	0.0015	0	Open	;
+13	9	10	350.001429	100	0.0015	0	Open	;
+14	11	6	160.028123	200	0.0015	0	Open	;
+15	12	7	160.028123	400	0.0015	0	Open	;
+16	13	8	160.028123	300	0.0015	0	Open	;
+17	14	9	160.0125	500	0.0015	0	Open	;
+18	20	10	401.799099	250	0.0015	0	Open	;
+19	11	12	150.003333	800	0.0015	0	Open	;
+2	2	3	150.000833	200	0.0015	0	Open	;
+20	12	13	150.013333	700	0.0015	0	Open	;
+21	13	14	150.013333	800	0.0015	0	Open	;
+22	15	11	282.886903	900	0.0015	0	Open	;
+23	16	11	200.039996	300	0.0015	0	Open	;
+24	17	12	200.01	300	0.0015	0	Open	;
+25	18	13	200.01	150	0.0015	0	Open	;
+26	19	14	200.01	600	0.0015	0	Open	;
+27	15	16	200.0025	400	0.0015	0	Open	;
+28	16	17	150.029997	600	0.0015	0	Open	;
+29	17	18	150.013333	600	0.0015	0	Open	;
+3	3	4	150.000833	250	0.0015	0	Open	;
+30	18	19	150.013333	100	0.0015	0	Open	;
+31	19	20	551.676351	450	0.0015	0	Open	;
+4	4	5	350	100	0.0015	0	Open	;
+5	6	1	200.039996	450	0.0015	0	Open	;
+6	7	2	200.022499	800	0.0015	0	Open	;
+7	8	3	200.005625	250	0.0015	0	Open	;
+8	9	4	200.0025	450	0.0015	0	Open	;
+9	10	5	200	450	0.0015	0	Open	;
+
+[PUMPS]
+;ID	Node1	Node2	Parameters
+
+[VALVES]
+;ID	Node1	Node2	Diameter	Type	Setting	MinorLoss
+
+[TAGS]
+
+[DEMANDS]
+;Junction	Demand	Pattern	Category
+
+[STATUS]
+;ID	Status/Setting
+
+[PATTERNS]
+;ID	M1	M2	M3	M4	M5	M6
+
+[CURVES]
+;ID	X-Value	Y-Value
+
+[CONTROLS]
+
+[RULES]
+
+[ENERGY]
+Global Efficiency	75
+Global Price	0
+Demand Charge	0
+
+[EMITTERS]
+;Junction	Coefficient
+1	0	;
+10	0	;
+11	0	;
+12	0	;
+13	0	;
+14	0	;
+15	0	;
+16	0	;
+17	0	;
+18	0	;
+19	0	;
+2	0	;
+3	0	;
+4	0	;
+5	0	;
+6	0	;
+7	0	;
+8	0	;
+9	0	;
+
+[QUALITY]
+;Node	InitQual
+
+[SOURCES]
+;Node	Type	Quality	Pattern
+
+[REACTIONS]
+Order Bulk	1
+Order Tank	1
+Order Wall	1
+Global Bulk	0
+Global Wall	0
+Limiting Potential	0
+
+[REACTIONS]
+;Var	Value
+
+[MIXING]
+;Tank	Model
+
+[TIMES]
+;Var	Value
+Duration	00:15
+Pattern Timestep	00:30
+Hydraulic Timestep	00:30
+Quality Timestep	0:05
+Pattern Start	00:00
+Report Timestep	00:30
+Report Start	00:00
+Start ClockTime	00:00
+Statistic	None
+
+[REPORT]
+;Var	Value
+Status	No
+Summary	No
+Page	0
+
+[OPTIONS]
+Units	LPS
+HeadLoss	D-W
+Specific Gravity	1
+Viscosity	1
+Trials	1000
+Accuracy	0.001
+Unbalanced	Continue 10
+Pattern	1
+Demand Multiplier	1
+Emitter Exponent	0.5
+Quality	None mg/L
+Diffusivity	1
+Tolerance	0.01
+
+[COORDINATES]
+;Node	X-Coord	Y-Coord
+1	560	999.834
+10	360	199.834
+11	200	999.834
+12	200	849.834
+13	200	699.834
+14	200	549.834
+15	0	1199.834
+16	0	999.834
+17	0	849.834
+18	0	699.834
+19	0	549.834
+2	560	849.834
+20	13.494	0
+3	560	699.834
+4	560	549.834
+5	560	199.834
+6	360	999.834
+7	360	849.834
+8	360	699.834
+9	360	549.834
+
+[VERTICES]
+;Link	X-Coord	Y-Coord
+
+[LABELS]
+;X-Coord	Y-Coord	Label & Anchor Nodo
+
+[BACKDROP]
+;Var	Val1	Val2	Val3	Val4
+
+[END]
+
