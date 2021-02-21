@@ -1,0 +1,11 @@
+Optimal Design Cost = $ 1147798861
+Non-Optimal Design 1 Cost = $ 1171843364
+Non-Optimal Design 2 Cost = $ 1274357991
+Non-Optimal Design 3 Cost = $ 1805123698
+Non-Optimal Design 4 Cost = $ 1961178043
+Non-Optimal Design 5 Cost = $ 1982463213
+Non-Optimal Design 6 Cost = $ 2042717385
+Non-Optimal Design 7 Cost = $ 2109422395
+Non-Optimal Design 8 Cost = $ 2123462512
+Non-Optimal Design 9 Cost = $ 2141143745
+Non-Optimal Design 10 Cost = $ 2200930478
